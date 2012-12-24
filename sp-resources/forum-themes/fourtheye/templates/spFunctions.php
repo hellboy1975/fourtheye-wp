@@ -2,9 +2,9 @@
 # --------------------------------------------------------------------------------------
 #
 #	Simple:Press Theme custom function file
-#	Theme		:	Default
+#	Theme		:	Fourtheye
 #	File		:	custom functions
-#	Author		:	Simple:Press
+#	Author		:	Matt Smith
 #
 #	The 'functions' file can be used for custom functions & is loaded with each template
 #
@@ -24,18 +24,18 @@ define('SP_TOOLTIPS', true);
 
 # ------------------------------------------------------------------------------------------
 
-add_action('init', 'spDefault_textdomain');
+add_action('init', 'spFourtheye_textdomain');
 
 # load the theme textdomain for tranlations
-function spDefault_textdomain() {
-	sp_theme_localisation('spDefault');
+function spFourtheye_textdomain() {
+	sp_theme_localisation('spFourtheye');
 }
 
 if (function_exists('sp_FontResizer')) {
-	add_action('sph_BeforeDisplayStart', 'spDefault_spShowFontResize');
+	add_action('sph_BeforeDisplayStart', 'spFourtheye_spShowFontResize');
 }
 
-function spDefault_spShowFontResize() {
+function spFourtheye_spShowFontResize() {
 	$tipMinus = __sp('decrease forum font size');
 	$tipReset = __sp('reset forum font size');
 	$tipPlus  = __sp('increase font size');
