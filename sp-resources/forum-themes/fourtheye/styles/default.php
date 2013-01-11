@@ -1536,6 +1536,10 @@ Form Controls
 	font-weight: <?php echo($mainFontWeight); ?>;
 }
 
+#spMainContainer .spSearchForm input.spControl {
+    font-size: <?php echo($spSubmit); ?>;
+}
+
 #spMainContainer .spSubmit:hover {
 	border: <?php echo($alt1SectionHover); ?>;
 	font-weight: <?php echo($mainFontWeight); ?>;
@@ -1793,6 +1797,7 @@ Success/Failure Messages
 	width: auto;
 	position: fixed;
 	top: 20px;
+    text-align: center;
 	<?php echo($largeRadius); ?>
 }
 

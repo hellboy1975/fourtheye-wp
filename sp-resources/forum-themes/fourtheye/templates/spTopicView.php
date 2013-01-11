@@ -153,7 +153,7 @@
 										if (function_exists('sp_PostIndexReportPost')) sp_PostIndexReportPost('tagClass=spButton spRight', __sp('Report'), __sp('Report this post to admin'));
 										sp_PostIndexQuote('tagClass=spButton spRight', __sp('Quote'), __sp('Quote this post and reply'));
 										sp_PostIndexEdit('tagClass=spButton spRight', __sp('Edit'), __sp('Edit this post'));
-										sp_PostIndexDelete('tagClass=spButton spRight', 'Delete', 'Delete this post');
+										sp_PostIndexDelete('tagClass=spButton spRight', __sp('Delete'), __sp('Delete this post'));
 										if (function_exists('sp_PostIndexSendPm')) sp_PostIndexSendPm('tagClass=spButton spRight', __sp('PM'), __sp('Send PM to this user'));
 									sp_SectionEnd('', 'action');
 									sp_InsertBreak();

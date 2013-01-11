@@ -20,6 +20,9 @@
 
 		# Start the 'groupView' section
 		# ----------------------------------------------------------------------
+
+		sp_RecentPostList('show=20', __sp('Unread and recently updated topics'));
+
 		sp_SectionStart('tagClass=spListSection', 'groupView');
 
 			# Start the Group Loop
@@ -96,7 +99,7 @@
 
 		sp_SectionEnd('', 'groupView');
 
-		sp_RecentPostList('show=10', __sp('Unread and recently updated topics'));
+		
 
 	sp_SectionEnd('', 'body');
 
