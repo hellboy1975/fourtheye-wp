@@ -121,7 +121,7 @@
 	# Start the 'breadCrumbs' section
 	# ----------------------------------------------------------------------
 	sp_SectionStart('tagClass=spPlainSection spLeft', 'breadCrumbs');
-		sp_BreadCrumbs('tagClass=spLeft spBreadCrumbs&tree=1', __sp('Home'));
+		sp_BreadCrumbs('tagClass=spLeft spBreadCrumbs&tree=0', __sp('Home'));
 	sp_SectionEnd('', 'breadCrumbs');
 
 	# Start the 'pageTopStatus' section
