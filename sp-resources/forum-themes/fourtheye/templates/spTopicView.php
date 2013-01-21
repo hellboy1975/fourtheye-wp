@@ -122,7 +122,8 @@
 									sp_PostIndexUserSpecialRank('tagClass=spPostUserSpecialRank spCenter');
 									sp_PostIndexUserPosts('tagClass=spPostUserPosts spCenter', __sp('Forum Posts: %COUNT%'));
 									sp_PostIndexUserRegistered('tagClass=spPostUserRegistered spCenter', __sp('Member Since:<br /> %DATE%'));
-									sp_PostIndexUserStatus('tagClass=spCenter spPostUserStatus', __sp('Online'), __sp('Offline'));
+									//sp_PostIndexUserStatus('tagClass=spCenter spPostUserStatus', __sp('Online'), __sp('Offline'));
+									sp_PostIndexUserMemberships('tagClass=spPostUserMemberships spCenter&showTitle=0');
 									sp_SectionStart('tagClass=spCenter', 'user-identities');
 										sp_PostIndexUserWebsite('', __sp('Visit my website'));
 										sp_PostIndexUserTwitter('', __sp('Follow me on Twitter'));
